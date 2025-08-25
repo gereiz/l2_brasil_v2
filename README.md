@@ -102,10 +102,10 @@ Caso precise subir separados os container, execute os comandos abaixo:
 #### Entre no diretorio onde se encontra o arquivo database.sql
     cd /docker-entrypoint-initdb.d
 
-#### Executar o comando abaixo para realizar o restore da base de dados criada para projeto l2 ex: l2jteste
+#### Executar o comando abaixo para realizar o restore da base de dados criada para projeto l2 ex: l2jbrasil
     mysql {NOME DO BANCO} < database.sql
 
-#### Executar o comando abaixo para realizar o backup (dump) da base de dados criado para servidor de l2jteste, ou nome definido na instalacao do server
+#### Executar o comando abaixo para realizar o backup (dump) da base de dados criado para servidor de l2jbrasil, ou nome definido na instalacao do server
     mysqldump {NOME DO BANCO} > database.sql
 
 
