@@ -1035,7 +1035,7 @@
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
 		<for>
-			<effect count="1" name="Buff" time="120" val="0">
+			<effect count="1" name="Buff" time="3600" val="0">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
@@ -1235,7 +1235,7 @@
 		<set name="effectRange" val="1200" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="99" stackType="pAtk">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="99" stackType="pAtk">
 				<mul order="0x30" stat="pAtk" val="#rate" />
 			</effect>
 		</for>
@@ -1255,7 +1255,7 @@
 		<set name="effectRange" val="1200" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="99" stackType="pDef">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="99" stackType="pDef">
 				<mul order="0x30" stat="pDef" val="#rate" />
 			</effect>
 		</for>
@@ -1275,7 +1275,7 @@
 		<set name="effectRange" val="1200" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="99" stackType="pAtkSpeedUp">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="99" stackType="pAtkSpeedUp">
 				<mul order="0x30" stat="pAtkSpd" val="#rate" />
 			</effect>
 		</for>
@@ -1295,7 +1295,7 @@
 		<set name="effectRange" val="1200" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="99" stackType="DmgShield">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="99" stackType="DmgShield">
 				<add order="0x40" stat="reflectDam" val="#rate" />
 			</effect>
 		</for>

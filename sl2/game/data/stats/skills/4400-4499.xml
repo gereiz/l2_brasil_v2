@@ -877,7 +877,7 @@
 		<set name="castRange" val="-1" />
 		<set name="isMagic" val="true" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#runSpd" stackType="SpeedUp">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#runSpd" stackType="SpeedUp">
 				<add order="0x40" stat="runSpd" val="#runSpd" />
 			</effect>
 		</for>

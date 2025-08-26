@@ -243,7 +243,7 @@
 			<using kind="Fist, Dual Fist" />
 		</cond>
 		<for>
-			<effect name="Buff" time="120" count="1" val="0" stackOrder="1" stackType="possession">
+			<effect name="Buff" time="3600" count="1" val="0" stackOrder="1" stackType="possession">
 				<mul order="0x30" stat="pDef" val="1.3">
 					<using kind="Fist, Dual Fist" />
 				</mul>
@@ -358,7 +358,7 @@
 		<set name="aggroPoints" val="#aggro" />
 		<enchant2 name="mpConsume" val="#ench2MpConsume" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0">
+			<effect count="1" name="Buff" time="3600" val="0">
 				<mul order="0x30" stat="bowWpnVuln" val="#bowVuln" />
 			</effect>
 		</for>
@@ -569,7 +569,7 @@
 		<enchant2 name="mpConsume" val="#ench2MpConsume" />
 		<enchant2 name="mpInitialConsume" val="#ench2MpConsume_Init" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#mDef" stackType="MagicDefUp">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#mDef" stackType="MagicDefUp">
 				<mul order="0x30" stat="mDef" val="#mDef" />
 			</effect>
 		</for>

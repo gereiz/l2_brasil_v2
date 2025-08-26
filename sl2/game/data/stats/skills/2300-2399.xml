@@ -61,7 +61,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="isPotion" val="true" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackType="PrimevalPotion">
+			<effect count="1" name="Buff" time="3600" val="0" stackType="PrimevalPotion">
 				<mul order="0x30" stat="poisonVuln" val="0.8" />
 				<mul order="0x30" stat="rootVuln" val="0.8" />
 				<mul order="0x30" stat="sleepVuln" val="0.8" />

@@ -370,7 +370,7 @@
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="1.15" stackType="pAtk">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="1.15" stackType="pAtk">
 				<mul order="0x30" stat="pAtk" val="1.50" />
 			</effect>
 		</for>
@@ -1358,7 +1358,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#pAtkSpd" stackType="attack_time_down">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#pAtkSpd" stackType="attack_time_down">
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			</effect>
 		</for>
@@ -1399,7 +1399,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#rate" stackType="hp_regen_up">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#rate" stackType="hp_regen_up">
 				<mul order="0x30" stat="regHp" val="#rate" />
 			</effect>
 		</for>
@@ -1420,7 +1420,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#maxHp" stackType="max_hp_up">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#maxHp" stackType="max_hp_up">
 				<mul order="0x30" stat="maxHp" val="#maxHp" />
 			</effect>
 		</for>
@@ -1441,7 +1441,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#maxMp" stackType="MPregen">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#maxMp" stackType="MPregen">
 				<mul order="0x30" stat="maxMp" val="#maxMp" />
 			</effect>
 		</for>
@@ -1481,7 +1481,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#runSpd" stackType="speed_up">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#runSpd" stackType="speed_up">
 				<add order="0x40" stat="runSpd" val="#runSpd" />
 			</effect>
 		</for>
@@ -1502,7 +1502,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#mAtkSpd" stackType="mAtkSpeedUp">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#mAtkSpd" stackType="mAtkSpeedUp">
 				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
 			</effect>
 		</for>
@@ -1523,7 +1523,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="#aggro" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#mAtk" stackType="ma_up">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#mAtk" stackType="ma_up">
 				<mul order="0x30" stat="mAtk" val="#mAtk" />
 			</effect>
 		</for>

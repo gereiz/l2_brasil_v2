@@ -1319,7 +1319,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="ACTIVE" />
 		<for>
-			<effect count="1" name="Buff" time="120" val="0">
+			<effect count="1" name="Buff" time="3600" val="0">
 				<mul order="0x30" stat="rCrit" val="1.33" />
 			</effect>
 		</for>
@@ -1335,7 +1335,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="ACTIVE" />
 		<for>
-			<effect count="1" name="Buff" time="120" val="0">
+			<effect count="1" name="Buff" time="3600" val="0">
 				<mul order="0x30" stat="pAtkSpd" val="1.33" />
 				<mul order="0x30" stat="pAtk" val="1.15" />
 			</effect>

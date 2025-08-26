@@ -394,7 +394,7 @@
 		<set name="aggroPoints" val="100" />
 		<set name="nextActionAttack" val="false" />
 		<for>
-			<effect name="Buff" time="1200" count="1" val="0" stackOrder="#pAtk" stackType="pAtk">
+			<effect name="Buff" time="3600" count="1" val="0" stackOrder="#pAtk" stackType="pAtk">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 			<effect count="1" name="Grow" time="1200" val="0" />
@@ -415,7 +415,7 @@
 		<set name="effectRange" val="-1" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect name="Buff" time="1200" count="1" val="0" stackOrder="#pDef" stackType="pDef">
+			<effect name="Buff" time="3600" count="1" val="0" stackOrder="#pDef" stackType="pDef">
 				<mul order="0x30" stat="pDef" val="#pDef" />
 			</effect>
 		</for>
@@ -436,7 +436,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#pAtk" stackType="pAtk">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#pAtk" stackType="pAtk">
 				<mul order="0x30" stat="pAtk" val="#pAtk" />
 			</effect>
 		</for>
@@ -457,7 +457,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#pDef" stackType="pDef">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#pDef" stackType="pDef">
 				<mul order="0x30" stat="pDef" val="#pDef" />
 			</effect>
 		</for>
@@ -1195,7 +1195,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#pAtkSpd" stackType="pAtkSpeedUp">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#pAtkSpd" stackType="pAtkSpeedUp">
 				<mul order="0x30" stat="pAtkSpd" val="#pAtkSpd" />
 			</effect>
 		</for>
@@ -1613,7 +1613,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="100" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="1" stackType="berserk">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="1" stackType="berserk">
 				<mul order="0x30" stat="pAtk" val="#val" />
 				<mul order="0x30" stat="pAtkSpd" val="#val" />
 				<mul order="0x30" stat="mAtk" val="#mAtk" />

@@ -832,7 +832,7 @@
 		<!-- <set name="itemConsumeId" val="#itemConsumeId" /> <set name="itemConsumeCount" val="1" /> -->
 		<set name="isPotion" val="true" />
 		<for>
-			<effect count="1" name="Buff" time="1200" val="0" stackOrder="#mAtkSpd" stackType="mAtkSpeedUp">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="#mAtkSpd" stackType="mAtkSpeedUp">
 				<mul order="0x30" stat="mAtkSpd" val="#mAtkSpd" />
 			</effect>
 		</for>
