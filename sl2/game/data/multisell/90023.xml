@@ -118,13 +118,13 @@
 	</item>
 	<!-- Greater Healing Potion -->
 	<item id="24">
-		<ingredient id="57" count="200000" />
-		<production id="1539" count="100" />
+		<ingredient id="57" count="20000" />
+		<production id="1539" count="10" />
 	</item>
 	<!-- Mana potion -->
 	<item id="25">
-		<ingredient id="57" count="200000" />
-		<production id="728" count="100" />
+		<ingredient id="57" count="20000" />
+		<production id="728" count="10" />
 	</item>
 	<!-- Spirit Ore -->
 	<item id="45">
