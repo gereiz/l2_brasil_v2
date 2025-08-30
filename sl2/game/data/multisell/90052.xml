@@ -177,10 +177,10 @@
 		<ingredient id="57" count="5000000" />
 		<production id="492" count="1" />
 	</item>
-	 <!-- <item id="45">
+	 <item id="45">
 		<ingredient id="57" count="5000000" />
 		<production id="489" count="1" />
-	</item> -->
+	</item>
 	<item id="46">
 		<ingredient id="57" count="5000000" />
 		<production id="488" count="1" />

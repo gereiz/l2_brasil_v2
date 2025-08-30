@@ -1446,7 +1446,7 @@
 		<set name="crystal_count" val="428" />
 		<for>
 			<add val="110" order="0x10" stat="pDef" />
-			<mul order="0x10" stat="critRate" val="1.25" />
+			<mul order="0x10" stat="rCrit" val="1.25" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
