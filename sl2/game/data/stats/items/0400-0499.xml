@@ -1382,6 +1382,7 @@
 		<set name="price" val="36900" />
 		<for>
 			<add val="53" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="pAtk" val="1.12" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1397,6 +1398,7 @@
 		<set name="crystal_count" val="276" />
 		<for>
 			<add val="73" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="rShld" val="1.15" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1412,6 +1414,7 @@
 		<set name="crystal_count" val="276" />
 		<for>
 			<add val="73" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="runSpd" val="1.33" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1427,6 +1430,7 @@
 		<set name="crystal_count" val="462" />
 		<for>
 			<add val="139" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="mAtk" val="1.65" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1442,6 +1446,7 @@
 		<set name="crystal_count" val="428" />
 		<for>
 			<add val="110" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="critRate" val="1.25" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1472,6 +1477,7 @@
 		<set name="crystal_count" val="422" />
 		<for>
 			<add val="146" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="maxHp" val="1.15" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1487,6 +1493,7 @@
 		<set name="crystal_count" val="181" />
 		<for>
 			<add val="65" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="pAtkSpd" val="1.15" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1502,6 +1509,7 @@
 		<set name="crystal_count" val="208" />
 		<for>
 			<add val="117" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="mAtkSpd" val="1.23" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
@@ -1517,6 +1525,7 @@
 		<set name="crystal_count" val="321" />
 		<for>
 			<add val="125" order="0x10" stat="pDef" />
+			<mul order="0x10" stat="pDef" val="1.40" />
 			<enchant val="0" order="0x0C" stat="pDef" />
 		</for>
 	</item>
