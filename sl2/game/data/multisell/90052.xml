@@ -165,7 +165,7 @@
 		<ingredient id="57" count="5000000" />
 		<production id="485" count="1" />
 	</item>
-	<!-- <item id="42">
+	<item id="42">
 		<ingredient id="57" count="5000000" />
 		<production id="486" count="1" />
 	</item>
@@ -177,7 +177,7 @@
 		<ingredient id="57" count="5000000" />
 		<production id="492" count="1" />
 	</item>
-	<item id="45">
+	<!-- <item id="45">
 		<ingredient id="57" count="5000000" />
 		<production id="489" count="1" />
 	</item>
