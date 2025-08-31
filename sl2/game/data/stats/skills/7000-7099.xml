@@ -624,7 +624,7 @@
 		<set name="effectRange" val="400" />
 		<set name="aggroPoints" val="669" />
 		<for>
-			<effect count="1" name="Buff" time="300" val="0" stackOrder="1" stackType="CoV">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="1" stackType="CoV">
 				<mul order="0x30" stat="mAtk" val="1.2" />
 				<mul order="0x30" stat="mDef" val="1.2" />
 				<mul order="0x30" stat="mAtkSpd" val="1.2" />
@@ -673,7 +673,7 @@
 		<set name="effectRange" val="400" />
 		<set name="aggroPoints" val="669" />
 		<for>
-			<effect count="1" name="Buff" time="300" val="0" stackOrder="1" stackType="CoV">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="1" stackType="CoV">
 				<add order="0x40" stat="absorbDam" val="5" />
 				<add order="0x40" stat="accCombat" val="4" />
 				<add order="0x40" stat="rEvas" val="4" />
@@ -705,7 +705,7 @@
 		<set name="effectRange" val="400" />
 		<set name="aggroPoints" val="669" />
 		<for>
-			<effect count="1" name="Buff" time="300" val="0" stackOrder="1" stackType="CoV">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="1" stackType="CoV">
 				<mul order="0x30" stat="pAtk" val="1.1" />
 				<mul order="0x30" stat="pDef" val="1.2" />
 				<mul order="0x30" stat="rCrit" val="1.2" />
