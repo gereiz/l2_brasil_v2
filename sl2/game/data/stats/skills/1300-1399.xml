@@ -1322,7 +1322,7 @@
 		<set name="effectRange" val="900" />
 		<set name="aggroPoints" val="669" />
 		<for>
-			<effect count="1" name="Buff" time="300" val="0" stackOrder="1" stackType="CoV">
+			<effect count="1" name="Buff" time="3600" val="0" stackOrder="1" stackType="CoV">
 				<add order="0x40" stat="accCombat" val="4" />
 				<add order="0x40" stat="rEvas" val="4" />
 				<mul order="0x30" stat="pAtkSpd" val="1.2" />
