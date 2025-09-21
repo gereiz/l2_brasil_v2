@@ -2,7 +2,7 @@
 services:
   db:
     image: mysql:5.7
-    container_name: db
+    container_name: dbl2jbrasil
     environment:
       MYSQL_ROOT_PASSWORD: 17072021
       MYSQL_DATABASE: l2jbrasil
@@ -20,7 +20,7 @@ services:
 
   sl2:
     build: .
-    container_name: sl2
+    container_name: sl2jbrasil
     volumes:
       - ./sl2:/app/sl2
     networks:
