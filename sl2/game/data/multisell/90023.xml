@@ -196,34 +196,80 @@
 		<ingredient id="57" count="1200000" />
 		<production id="1345" count="1000" />
 	</item>
-	<!-- Scroll: Recovery (Grade S) -->
+		<!-- Crystal: S Grade -->
 	<item id="59">
-		<ingredient id="57" count="200000" />
-		<production id="8599" count="1" />
-	</item>
-	<!-- Crystal: S Grade -->
-	<item id="61">
 		<ingredient id="57" count="10000000" />
 		<production id="1462" count="100" />
 	</item>
 	<!-- Crystal: A-Grade -->
-	<item id="62">
+	<item id="60">
 		<ingredient id="57" count="5000000" />
 		<production id="1461" count="100" />
 	</item>
 	<!-- Crystal: B-Grade -->
-	<item id="63">
+	<item id="61">
 		<ingredient id="57" count="2000000" />
 		<production id="1460" count="100" />
 	</item>
 	<!-- Crystal: C-Grade -->
-	<item id="64">
+	<item id="62">
 		<ingredient id="57" count="1000000" />
 		<production id="1459" count="100" />
 	</item>
 	<!-- Crystal: D-Grade -->
-	<item id="65">
+	<item id="63">
 		<ingredient id="57" count="500000" />
 		<production id="1458" count="100" />
 	</item>
+	<!-- Scroll: Recovery (Grade S) -->
+	<item id="64">
+		<ingredient id="57" count="200000" />
+		<production id="8599" count="1" />
+	</item>
+	<!-- Red Soul Crystal - Stage 11 -->
+	<item id="65">
+		<ingredient id="5575" count="250000" />
+		<production id="5577" count="1" />
+	</item>
+	<!-- Green Soul Crystal - Stage 11 -->
+	<item id="66">
+		<ingredient id="5575" count="250000" />
+		<production id="5578" count="1" />
+	</item>
+	<!-- Blue Soul Crystal - Stage 11 -->
+	<item id="67">
+		<ingredient id="5575" count="250000" />
+		<production id="5579" count="1" />
+	</item>
+	<!-- Red Soul Crystal - Stage 12 -->
+	<item id="68">
+		<ingredient id="5575" count="500000" />
+		<production id="5580" count="1" />
+	</item>
+	<!-- Green Soul Crystal - Stage 12 -->
+	<item id="69">
+		<ingredient id="5575" count="500000" />
+		<production id="5581" count="1" />
+	</item>
+	<!-- Blue Soul Crystal - Stage 12 -->
+	<item id="70">
+		<ingredient id="5575" count="500000" />
+		<production id="5582" count="1" />
+	</item>
+	<!-- Red Soul Crystal - Stage 13 -->
+	<item id="71">
+		<ingredient id="5575" count="750000" />
+		<production id="5908" count="1" />
+	</item>
+	<!-- Green Soul Crystal - Stage 13 -->
+	<item id="72">
+		<ingredient id="5575" count="750000" />
+		<production id="5911" count="1" />
+	</item>
+	<!-- Blue Soul Crystal - Stage 13 -->
+	<item id="73">
+		<ingredient id="5575" count="750000" />
+		<production id="5914" count="1" />
+	</item>
+
 </list>
