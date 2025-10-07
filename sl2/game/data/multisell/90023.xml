@@ -241,35 +241,50 @@
 		<ingredient id="5575" count="250000" />
 		<production id="5579" count="1" />
 	</item>
-	<!-- Red Soul Crystal - Stage 12 -->
+	<!-- Gemstone B -->
 	<item id="68">
+		<ingredient id="57" count="1000000" />
+		<production id="2132" count="100" />
+	</item>
+	<!-- Red Soul Crystal - Stage 12 -->
+	<item id="69">
 		<ingredient id="5575" count="500000" />
 		<production id="5580" count="1" />
 	</item>
 	<!-- Green Soul Crystal - Stage 12 -->
-	<item id="69">
+	<item id="70">
 		<ingredient id="5575" count="500000" />
 		<production id="5581" count="1" />
 	</item>
 	<!-- Blue Soul Crystal - Stage 12 -->
-	<item id="70">
+	<item id="71">
 		<ingredient id="5575" count="500000" />
 		<production id="5582" count="1" />
 	</item>
+	<!-- Gemstone A -->
+	<item id="72">
+		<ingredient id="57" count="2500000" />
+		<production id="2133" count="100" />
+	</item>
 	<!-- Red Soul Crystal - Stage 13 -->
-	<item id="71">
+	<item id="73">
 		<ingredient id="5575" count="750000" />
 		<production id="5908" count="1" />
 	</item>
 	<!-- Green Soul Crystal - Stage 13 -->
-	<item id="72">
+	<item id="74">
 		<ingredient id="5575" count="750000" />
 		<production id="5911" count="1" />
 	</item>
 	<!-- Blue Soul Crystal - Stage 13 -->
-	<item id="73">
+	<item id="75">
 		<ingredient id="5575" count="750000" />
 		<production id="5914" count="1" />
+	</item>
+	<!-- Gemstone S -->
+	<item id="76">
+		<ingredient id="57" count="2500000" />
+		<production id="2134" count="100" />
 	</item>
 
 </list>
