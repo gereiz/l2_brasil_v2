@@ -227,7 +227,7 @@
 		<production id="8599" count="1" />
 	</item>
 	<!-- Gemstone C -->
-	<item id="68">
+	<item id="77">
 		<ingredient id="57" count="10000000" />
 		<production id="2131" count="100" />
 	</item>
