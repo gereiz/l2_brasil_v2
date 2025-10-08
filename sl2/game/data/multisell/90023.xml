@@ -226,6 +226,11 @@
 		<ingredient id="57" count="200000" />
 		<production id="8599" count="1" />
 	</item>
+	<!-- Gemstone C -->
+	<item id="68">
+		<ingredient id="57" count="10000000" />
+		<production id="2131" count="100" />
+	</item>
 	<!-- Red Soul Crystal - Stage 11 -->
 	<item id="65">
 		<ingredient id="5575" count="250000" />
