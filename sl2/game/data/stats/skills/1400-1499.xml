@@ -283,7 +283,7 @@
 		<set name="isMagic" val="true" />
 		<set name="operateType" val="ACTIVE" />
 		<for>
-			<effect count="1" name="Buff" time="7200" val="0" stackOrder="1" stackType="CoV">
+			<effect count="1" name="Buff" time="300" val="0" stackOrder="1" stackType="CoV">
 				<mul order="0x30" stat="regMp" val="1.5" />
 				<mul order="0x30" stat="mAtkSpd" val="1.2" />
 				<mul order="0x30" stat="mDef" val="1.2" />

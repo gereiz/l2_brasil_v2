@@ -881,7 +881,7 @@
 		<set name="operateType" val="ACTIVE" />
 		<set name="castRange" val="-1" />
 		<for>
-			<effect count="1" name="Buff" time="7200" val="0">
+			<effect count="1" name="Buff" time="3600" val="0">
 				<mul order="0x30" stat="regHp" val="1.4" />
 			</effect>
 		</for>
